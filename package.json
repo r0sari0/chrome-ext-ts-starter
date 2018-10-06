@@ -10,14 +10,14 @@
   "author": "r0sari0",
   "license": "MIT",
   "devDependencies": {
+    "@types/chrome": "0.0.74",
     "copy-webpack-plugin": "^4.5.2",
     "ts-loader": "^5.2.1",
+    "tslint": "^5.11.0",
     "typescript": "^3.1.1",
     "webpack": "^4.20.2",
     "webpack-chrome-extension-reloader": "^0.8.3",
     "webpack-cli": "^3.1.1"
   },
-  "dependencies": {
-    "@types/chrome": "0.0.74"
-  }
+  "dependencies": {}
 }
