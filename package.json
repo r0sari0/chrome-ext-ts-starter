@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "./node_modules/.bin/webpack --mode=development",
-    "build-prod": "./node_modules/.bin/webpack --mode=production"
+    "build-prod": "./node_modules/.bin/webpack --mode=production",
+    "format": "./node_modules/tslint/bin/tslint --fix \"src/**/*.ts\""
   },
   "author": "r0sari0",
   "license": "MIT",
